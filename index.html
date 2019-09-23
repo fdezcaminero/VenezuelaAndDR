@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+      @media only screen and (min-width: 768px) {
+        .project-tile {
+          float: left;
+          width: 33%;
+        }
+      }
+    </style>
   </head>
 
   <body>
@@ -34,9 +42,18 @@
     </div>
 
     <div id="projects">
-      <a>projects</a>
-      <a href="https://facebook.com">Facebook</a>
-      <p class="project-tile">Hello!</p>
+      <div class="project-tile">
+        <h2><a href="https://facebook.com">Facebook project</a></h2>
+        <p>Project 1 description</p>
+      </div>
+      <div class="project-tile">
+        <h2><a href="#">Project 2 title</a></h2>
+        <p>Project 2 description</p>
+      </div>
+      <div class="project-tile">
+        <h2><a href="#">Project 3 title</a></h2>
+        <p>Project 3 description</p>
+      </div>
     </div>
   </body>
 </html>
